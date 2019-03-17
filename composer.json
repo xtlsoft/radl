@@ -1,0 +1,20 @@
+{
+    "name": "xtlsoft/radl",
+    "description": "Random Data Language.",
+    "type": "library",
+    "require": {
+        "xtlsoft/pisp": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tianle Xu",
+            "email": "xtl@xtlsoft.top"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Radl\\": "./src/"
+        }
+    }
+}

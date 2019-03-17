@@ -1,0 +1,22 @@
+#|
+(@document
+    (ignore
+        (@def a (rand 3 6))
+        (@def b (rand 5 12))
+    )
+    (a)
+    " "
+    (b)
+    (endl)
+    (@repeat a
+        (@repeat b
+            (@repeat 4 (rand_range "az" "AZ" "09" "=" ["*", "@"]))
+            " "
+        )
+        (endl)
+    )
+)
+|#
+(@document
+
+)

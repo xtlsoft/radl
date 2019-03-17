@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "11ba6c7d914e62278661d03ccd241e14",
+    "content-hash": "c214a9f044ac43d3384d8bc2dc99155d",
+    "packages": [
+        {
+            "name": "xtlsoft/pisp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xtlsoft/Pisp.git",
+                "reference": "8385489388e6ca74611f5830938342ab220fdc41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xtlsoft/Pisp/zipball/8385489388e6ca74611f5830938342ab220fdc41",
+                "reference": "8385489388e6ca74611f5830938342ab220fdc41",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pisp\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tianle Xu",
+                    "email": "xtl@xtlsoft.top"
+                }
+            ],
+            "description": "A lisp-like language for php.",
+            "time": "2018-12-31 08:05:34"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "xtlsoft/pisp": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
